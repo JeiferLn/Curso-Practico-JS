@@ -6,7 +6,7 @@
 
 * Pasos:
 
-- Primer: Definir las fórmulas
+- Primero: Definir las fórmulas
 - Segundo: Implementar las fórmulas en JavaScript
-- Tercer: Crear Funciones
+- Tercero: Crear Funciones
 - Cuarto: Integrar JavaScript con HTML
