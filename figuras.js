@@ -1,103 +1,41 @@
 // Codigo del cuadrado
-console.group('Cuadrado');
-const ladoCuadrado = 5;
 
-console.log(
-    'los lados del cuadrado miden: '
-    +ladoCuadrado+ 
-    'cm'
-);
+function perimetroCuadrado(lado){
+    return lado*4;
+}
 
-const perimetroCuadrado = ladoCuadrado * 4;
 
-console.log(
-    'El perimetro del cuadrado es: '
-    +perimetroCuadrado+ 
-    'cm²'
-);
-
-const areaCuadrado = ladoCuadrado * ladoCuadrado;
-
-console.log(
-    'El área del cuadrado es: '
-    +areaCuadrado+ 
-    'cm²'
-);
-
-console.groupEnd();
-
+function areaCuadrado(lado){
+    return lado*lado;
+}
 
 
 // Codigo del triangulo
 
-console.group('Triangulo');
 
-const ladoTriangulo1 = 6;
-const ladoTriangulo2 = 6;
-const BaseTriangulo = 4;
+function perimetroTriangulo(lado1, lado2, base){
+    return lado1+lado2+base;
+}
 
-console.log(
-    'Los lados de los triangulos miden: '
-    +ladoTriangulo1+
-    'cm, '
-    +ladoTriangulo2+
-    'cm, '
-    +BaseTriangulo+
-    'cm'
-);
+function areaTriangulo(base, altura){
+    return (base * altura)/2;
+}
 
-const alturaTriangulo = 5.5;
-
-console.log(
-    'La altura del triangulo es: '
-    +alturaTriangulo+
-    'cm'
-);
-
-const perimetroTriangulo = ladoTriangulo1 + ladoTriangulo2 + BaseTriangulo;
-
-console.log(
-    'El perimetro del triangulo es: '
-    +perimetroTriangulo+
-    'cm'
-);
-
-const areaTriangulo = (BaseTriangulo*alturaTriangulo)/2;
-
-console.log(
-    'El area del triangulo es: '
-    +areaTriangulo+
-    'cm²'
-);
-console.groupEnd();
 
 // Circulo
 
-console.group('Circulo');
 
-const r = 4;
-const pi = Math.PI;
+const PI = Math.PI
 
-console.log(
-    'El radio del circulo es: '
-    +r+
-    'cm'
-);
+function diametrocirculo(radio){
+    return radio*2;
+}
 
-const perimetroCirculo = pi * (r * 2);
+function perimetroCirculo(radio){
+    const diametro = diametrocirculo(radio);
+    return PI*diametro;
+}
 
-console.log(
-    'El perimetro del circulo es: '
-    +perimetroCirculo+
-    ' cm'
-);
-
-const areaCirculo = pi * (r*r);
-
-console.log(
-    'El area del circulo es: '
-    +areaCirculo+
-    ' cm²'
-);
-
-console.groupEnd();
+function areaCirculo(radio){
+    return PI * (radio*radio);
+}
