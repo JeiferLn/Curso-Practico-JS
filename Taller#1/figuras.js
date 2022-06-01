@@ -95,3 +95,5 @@ function calcularAreaCirculo(){
     const area = areaCirculo(radio);
     alert('El area del circulo es: '+area);
 }
+
+
