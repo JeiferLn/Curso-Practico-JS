@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestamo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <section>
+            <h1>Servicio de prestamos</h1>
+            <img src="./imagenes/png-transparent-finance-credit-financial-services-bank-loan-bank-text-logo-insurance.png" alt="logo">
+        </section>
+    </header>
+
+    <main>
+
+        <section id="text">
+            <p>Buen dia, estas en el servicio de prestamos mas grande del continente, si deseas pedir prestamo dijita tu nombre, cantidad del prestado y a cuantas cuotas a pagar. (recuerda que despues del 10.000 dolares prestados, los intereses aumentan en un 10% en vez de 5%; recuerda tambien que entre cada año el el interes sube en un 5% al establecido)</p>
+        </section>
+
+        <section id="form">
+            <form>
+                <ul>
+                    <li>
+                        <label for="name">Nombre y Apellido: </label>
+                        <input type="text" id="name" placeholder="Ej: Jeifer Leon">
+                    </li>
+
+                    <li>
+                    <label for="loan">Cantidad a solicitar prestado: </label>
+                    <input type="number" id="loan" placeholder="Ej: 20000">
+                    </li>
+
+                    <li>
+                    <label for="dues">Cantidad de cuotas anuales: </label>
+                    <input type="number" id="dues" placeholder="Ej: 4">
+                    </li>
+
+                    <button type="button" onclick="procesarEntradas()">Procesar Prestamo</button>
+                </ul>
+            </form>
+        </section>
+
+        <section id="response">
+            <span id="respuesta1"></span><span id="respuesta2"></span>
+        </section>
+
+    </main>
+
+    <script src="./prestamo.js"></script>
+</body>
+</html>

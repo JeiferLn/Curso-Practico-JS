@@ -30,3 +30,13 @@
 - Segundo: Implementar las fórmulas en JavaScript
 - Tercero: Crear Funciones
 - Cuarto: Integrar JavaScript con HTML
+
+
+## Taller #3: Salarios
+
+* Pasos:
+
+- Primero: Definir las fórmulas
+- Segundo: Implementar las fórmulas en JavaScript
+- Tercero: Crear Funciones
+- Cuarto: Integrar JavaScript con HTML
