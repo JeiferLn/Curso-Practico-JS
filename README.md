@@ -32,7 +32,7 @@
 - Cuarto: Integrar JavaScript con HTML
 
 
-## Taller #3: Salarios
+## Taller #4: Salarios
 
 * Pasos:
 
